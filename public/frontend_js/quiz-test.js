@@ -87,10 +87,9 @@ $(document).on("click", ".beginButton", async function () {
     }
   } else {
     // Reset to the beginning if they don't want to resume
-    currentQuizIndex = 1;
-    currentQuestionCounter = 14;
-    // currentQuizIndex = 0;
-    // currentQuestionCounter = 0;
+   
+    currentQuizIndex = 0;
+    currentQuestionCounter = 0;
   }
 
   $("#page1").css("display", "none");
